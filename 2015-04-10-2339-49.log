@@ -1,0 +1,243 @@
+23:41:17: Open Broadcaster Software v0.651b - 32bit (´・ω・｀)
+23:41:17: -------------------------------
+23:41:17: CPU Name: Intel(R) Pentium(R) CPU 2117U @ 1.80GHz
+23:41:17: CPU Speed: 1795MHz
+23:41:17: Physical Memory:  3914MB Total, 1225MB Free
+23:41:17: stepping id: 9, model 58, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+23:41:17: monitor 1: pos={0, 0}, size={1366, 768}
+23:41:17: Windows Version: 6.1 Build 7601 S
+23:41:17: Aero is Enabled
+23:41:17: -------------------------------
+23:41:17: OBS Modules:
+23:41:17: Base Address     Module
+23:41:17: 00C70000         OBS.exe
+23:41:17: 55B20000         OBSApi.dll
+23:41:17: 63420000         DShowPlugin.dll
+23:41:17: 62C70000         GraphicsCapture.dll
+23:41:17: 62C40000         NoiseGate.dll
+23:41:17: 641C0000         PSVPlugin.dll
+23:41:17: 63A60000         scenesw.dll
+23:41:17: ------------------------------------------
+23:41:17: Adapter 1
+23:41:17:   Video Adapter: Intel(R) HD Graphics
+23:41:17:   Video Adapter Dedicated Video Memory: 134217728
+23:41:17:   Video Adapter Shared System Memory: 1711276032
+23:41:17:   Video Adapter Output 1: pos={0, 0}, size={1366, 768}, attached=true
+23:41:17: ------------------------------------------
+23:41:17: Adapter 2
+23:41:17:   Video Adapter: NVIDIA GeForce GT 720M         
+23:41:17:   Video Adapter Dedicated Video Memory: 1025114112
+23:41:17:   Video Adapter Shared System Memory: 1783814144
+23:41:17: =====Stream Start: 2015-04-10, 23:41:17===============================================
+23:41:17:   Multithreaded optimizations: On
+23:41:17:   Base resolution: 1366x768
+23:41:17:   Output resolution: 1364x768
+23:41:17: ------------------------------------------
+23:41:17: Loading up D3D10 on Intel(R) HD Graphics (Adapter 1)...
+23:41:17: ------------------------------------------
+23:41:17: Audio Format: 48000 Hz
+23:41:17: ------------------------------------------
+23:41:17: Audio Channels: 2 Ch
+23:41:17: Playback device Default
+23:41:17: ------------------------------------------
+23:41:17: Using desktop audio input: Динамики (Realtek High Definition Audio)
+23:41:17: Global Audio time adjust: 0
+23:41:17: ------------------------------------------
+23:41:17: Using auxilary audio input: Микрофон (Realtek High Definition Audio)
+23:41:17: Mic time offset: 0
+23:41:17: ------------------------------------------
+23:41:17: Audio Encoding: AAC
+23:41:17:     bitrate: 128
+23:41:17: Scene buffering time set to 700
+23:41:17: ------------------------------------------
+23:41:17: Video Encoding: x264
+23:41:17:     fps: 30
+23:41:17:     width: 1364, height: 768
+23:41:17:     preset: veryfast
+23:41:17:     profile: high
+23:41:17:     keyint: 250
+23:41:17:     CBR: yes
+23:41:17:     CFR: yes
+23:41:17:     max bitrate: 1000
+23:41:17:     buffer size: 1000
+23:41:17: ------------------------------------------
+23:43:39: Settings::Video: Disabling Aero
+23:44:51: FlushBufferedVideo: Flushing 103 packets over 3400 ms
+23:44:55: Total frames encoded: 6495, total frames duplicated: 391 (6.02%)
+23:44:55: Number of frames skipped due to encoder lag: 152 (2.34%)
+23:44:55: Total frames rendered: 6050, number of late frames: 6 (0.10%) (it's okay for some frames to be late)
+23:44:55: 
+23:44:55: Profiler time results:
+23:44:55: 
+23:44:55: ==============================================================
+23:44:55: video thread frame - [100%] [avg time: 1.695 ms] [children: 6.67%] [unaccounted: 93.3%]
+23:44:55: | scene->Preprocess - [0.059%] [avg time: 0.001 ms]
+23:44:55: | GPU download and conversion - [6.61%] [avg time: 0.112 ms] [children: 5.31%] [unaccounted: 1.3%]
+23:44:55: | | flush - [2.71%] [avg time: 0.046 ms]
+23:44:55: | | CopyResource - [2.01%] [avg time: 0.034 ms]
+23:44:55: | | conversion to 4:2:0 - [0.59%] [avg time: 0.01 ms]
+23:44:55: Convert444Thread - [100%] [avg time: 2.156 ms] [children: 98.9%] [unaccounted: 1.07%]
+23:44:55: | Convert444toNV12 - [98.9%] [avg time: 2.133 ms]
+23:44:55: encoder thread frame - [100%] [avg time: 3.055 ms] [children: 0.262%] [unaccounted: 99.7%]
+23:44:55: | sending stuff out - [0.262%] [avg time: 0.008 ms]
+23:44:55: ==============================================================
+23:44:55: 
+23:44:55: 
+23:44:55: Profiler CPU results:
+23:44:55: 
+23:44:55: ==============================================================
+23:44:55: video thread frame - [cpu time: avg 0.108 ms, total 655.203 ms] [avg calls per frame: 1]
+23:44:55: | scene->Preprocess - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:44:55: | GPU download and conversion - [cpu time: avg 0.018 ms, total 109.2 ms] [avg calls per frame: 1]
+23:44:55: | | flush - [cpu time: avg 0.007 ms, total 46.8 ms] [avg calls per frame: 1]
+23:44:55: | | CopyResource - [cpu time: avg 0.007 ms, total 46.8 ms] [avg calls per frame: 1]
+23:44:55: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:44:55: Convert444Thread - [cpu time: avg 1.931 ms, total 11637.7 ms] [avg calls per frame: 1]
+23:44:55: | Convert444toNV12 - [cpu time: avg 1.92 ms, total 11575.3 ms] [avg calls per frame: 1]
+23:44:55: encoder thread frame - [cpu time: avg 1.217 ms, total 7784.45 ms] [avg calls per frame: 1]
+23:44:55: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:44:55: ==============================================================
+23:44:55: 
+23:44:55: =====Stream End: 2015-04-10, 23:44:55=================================================
+23:45:16: =====Stream Start: 2015-04-10, 23:45:16===============================================
+23:45:16:   Multithreaded optimizations: On
+23:45:16:   Base resolution: 1366x768
+23:45:16:   Output resolution: 1364x768
+23:45:16: ------------------------------------------
+23:45:16: Loading up D3D10 on Intel(R) HD Graphics (Adapter 1)...
+23:45:16: ------------------------------------------
+23:45:16: Audio Format: 48000 Hz
+23:45:16: ------------------------------------------
+23:45:16: Audio Channels: 2 Ch
+23:45:16: Playback device Default
+23:45:16: ------------------------------------------
+23:45:16: Using desktop audio input: Динамики (Realtek High Definition Audio)
+23:45:16: Global Audio time adjust: 0
+23:45:16: ------------------------------------------
+23:45:16: Using auxilary audio input: Микрофон (Realtek High Definition Audio)
+23:45:16: Mic time offset: 0
+23:45:16: ------------------------------------------
+23:45:16: Audio Encoding: AAC
+23:45:16:     bitrate: 128
+23:45:16: Scene buffering time set to 700
+23:45:16: ------------------------------------------
+23:45:16: Video Encoding: x264
+23:45:16:     fps: 30
+23:45:16:     width: 1364, height: 768
+23:45:16:     preset: veryfast
+23:45:16:     profile: high
+23:45:16:     keyint: 250
+23:45:16:     CBR: yes
+23:45:16:     CFR: yes
+23:45:16:     max bitrate: 1000
+23:45:16:     buffer size: 1000
+23:45:16: ------------------------------------------
+23:45:33: FlushBufferedVideo: Flushing 5 packets over 133 ms
+23:45:33: Total frames encoded: 488, total frames duplicated: 0 (0.00%)
+23:45:33: Total frames rendered: 509, number of late frames: 1 (0.20%) (it's okay for some frames to be late)
+23:45:33: 
+23:45:33: Profiler time results:
+23:45:33: 
+23:45:33: ==============================================================
+23:45:33: video thread frame - [100%] [avg time: 1.224 ms] [children: 9.8%] [unaccounted: 90.2%]
+23:45:33: | scene->Preprocess - [0.163%] [avg time: 0.002 ms]
+23:45:33: | GPU download and conversion - [9.64%] [avg time: 0.118 ms] [children: 4%] [unaccounted: 5.64%]
+23:45:33: | | flush - [2.04%] [avg time: 0.025 ms]
+23:45:33: | | CopyResource - [1.47%] [avg time: 0.018 ms]
+23:45:33: | | conversion to 4:2:0 - [0.49%] [avg time: 0.006 ms]
+23:45:33: Convert444Thread - [100%] [avg time: 1.812 ms] [children: 99%] [unaccounted: 1.05%]
+23:45:33: | Convert444toNV12 - [99%] [avg time: 1.793 ms]
+23:45:33: encoder thread frame - [100%] [avg time: 1.739 ms] [children: 0.345%] [unaccounted: 99.7%]
+23:45:33: | sending stuff out - [0.345%] [avg time: 0.006 ms]
+23:45:33: ==============================================================
+23:45:33: 
+23:45:33: 
+23:45:33: Profiler CPU results:
+23:45:33: 
+23:45:33: ==============================================================
+23:45:33: video thread frame - [cpu time: avg 0.214 ms, total 109.2 ms] [avg calls per frame: 1]
+23:45:33: | scene->Preprocess - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:45:33: | GPU download and conversion - [cpu time: avg 0.061 ms, total 31.2 ms] [avg calls per frame: 1]
+23:45:33: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:45:33: | | CopyResource - [cpu time: avg 0.032 ms, total 15.6 ms] [avg calls per frame: 1]
+23:45:33: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:45:33: Convert444Thread - [cpu time: avg 1.676 ms, total 811.205 ms] [avg calls per frame: 1]
+23:45:33: | Convert444toNV12 - [cpu time: avg 1.643 ms, total 795.605 ms] [avg calls per frame: 1]
+23:45:33: encoder thread frame - [cpu time: avg 1.098 ms, total 530.403 ms] [avg calls per frame: 1]
+23:45:33: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:45:33: ==============================================================
+23:45:33: 
+23:45:33: =====Stream End: 2015-04-10, 23:45:33=================================================
+23:45:34: =====Stream Start: 2015-04-10, 23:45:34===============================================
+23:45:34:   Multithreaded optimizations: On
+23:45:34:   Base resolution: 1366x768
+23:45:34:   Output resolution: 1364x768
+23:45:34: ------------------------------------------
+23:45:34: Loading up D3D10 on Intel(R) HD Graphics (Adapter 1)...
+23:45:34: ------------------------------------------
+23:45:34: Audio Format: 48000 Hz
+23:45:34: ------------------------------------------
+23:45:34: Audio Channels: 2 Ch
+23:45:34: Playback device Default
+23:45:34: ------------------------------------------
+23:45:34: Using desktop audio input: Динамики (Realtek High Definition Audio)
+23:45:34: Global Audio time adjust: 0
+23:45:34: ------------------------------------------
+23:45:34: Using auxilary audio input: Микрофон (Realtek High Definition Audio)
+23:45:34: Mic time offset: 0
+23:45:34: ------------------------------------------
+23:45:34: Audio Encoding: AAC
+23:45:34:     bitrate: 128
+23:45:34: Scene buffering time set to 700
+23:45:34: ------------------------------------------
+23:45:34: Video Encoding: x264
+23:45:34:     fps: 30
+23:45:34:     width: 1364, height: 768
+23:45:34:     preset: veryfast
+23:45:34:     profile: high
+23:45:34:     keyint: 250
+23:45:34:     CBR: yes
+23:45:34:     CFR: yes
+23:45:34:     max bitrate: 1000
+23:45:34:     buffer size: 1000
+23:45:34: ------------------------------------------
+23:46:07: FlushBufferedVideo: Flushing 12 packets over 367 ms
+23:46:07: Total frames encoded: 958, total frames duplicated: 160 (16.70%)
+23:46:07: Number of frames skipped due to encoder lag: 128 (13.36%)
+23:46:07: Total frames rendered: 836, number of late frames: 7 (0.84%) (it's okay for some frames to be late)
+23:46:07: 
+23:46:07: Profiler time results:
+23:46:07: 
+23:46:07: ==============================================================
+23:46:07: video thread frame - [100%] [avg time: 1.825 ms] [children: 33.4%] [unaccounted: 66.6%]
+23:46:07: | scene->Preprocess - [0.0548%] [avg time: 0.001 ms]
+23:46:07: | GPU download and conversion - [33.3%] [avg time: 0.608 ms] [children: 21.9%] [unaccounted: 11.5%]
+23:46:07: | | flush - [2.41%] [avg time: 0.044 ms]
+23:46:07: | | CopyResource - [19.1%] [avg time: 0.349 ms]
+23:46:07: | | conversion to 4:2:0 - [0.329%] [avg time: 0.006 ms]
+23:46:07: Convert444Thread - [100%] [avg time: 2.412 ms] [children: 99%] [unaccounted: 1.04%]
+23:46:07: | Convert444toNV12 - [99%] [avg time: 2.387 ms]
+23:46:07: encoder thread frame - [100%] [avg time: 7.983 ms] [children: 0.0877%] [unaccounted: 99.9%]
+23:46:07: | sending stuff out - [0.0877%] [avg time: 0.007 ms]
+23:46:07: ==============================================================
+23:46:07: 
+23:46:07: 
+23:46:07: Profiler CPU results:
+23:46:07: 
+23:46:07: ==============================================================
+23:46:07: video thread frame - [cpu time: avg 0.373 ms, total 312.001 ms] [avg calls per frame: 1]
+23:46:07: | scene->Preprocess - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:46:07: | GPU download and conversion - [cpu time: avg 0.037 ms, total 31.2 ms] [avg calls per frame: 1]
+23:46:07: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:46:07: | | CopyResource - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:46:07: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:46:07: Convert444Thread - [cpu time: avg 2 ms, total 1622.41 ms] [avg calls per frame: 1]
+23:46:07: | Convert444toNV12 - [cpu time: avg 2 ms, total 1622.41 ms] [avg calls per frame: 1]
+23:46:07: encoder thread frame - [cpu time: avg 1.731 ms, total 1638.01 ms] [avg calls per frame: 1]
+23:46:07: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:46:07: ==============================================================
+23:46:07: 
+23:46:07: =====Stream End: 2015-04-10, 23:46:07=================================================
+23:46:48: Terminating 0x1d58
+23:46:48: Terminating 0x1ec0
+23:46:48: Terminating 0x1f78
